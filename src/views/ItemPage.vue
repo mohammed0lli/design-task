@@ -5,7 +5,7 @@ const cards = [
   {
     name: "Whiteboard Pen",
     price: 1.2,
-    image: new URL("@/assets/whiteboard.jpg", import.meta.url).href,
+    image: new URL("@/assets/whiteboard_pen.png", import.meta.url).href,
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -14,7 +14,7 @@ const cards = [
   {
     name: "Simple Pen",
     price: 1.2,
-    image: new URL("@/assets/slim.jpeg", import.meta.url).href,
+    image: new URL("@/assets/pen.jpg", import.meta.url).href,
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -23,7 +23,7 @@ const cards = [
   {
     name: "Screw",
     price: 0.2,
-    image: new URL("@/assets/zipin.jpg", import.meta.url).href,
+    image: new URL("@/assets/screw.jpg", import.meta.url).href,
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -32,7 +32,7 @@ const cards = [
   {
     name: "Bolt",
     price: 0.5,
-    image: new URL("@/assets/stainless.webp", import.meta.url).href,
+    image: new URL("@/assets/bolt.jpg", import.meta.url).href,
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -43,8 +43,7 @@ const cards = [
     legs: "Custom",
     color: "White",
     price: 750.0,
-    image: new URL("@/assets/par03-grey-frame_eyk_1.webp", import.meta.url)
-      .href,
+    image: new URL("@/assets/customizable_desk.png", import.meta.url).href,
     colorLegs: "#C0E2C6",
     colorTextLegs: "#678E69",
     bgColor: "#9CD7D3",
@@ -59,13 +58,13 @@ const cards = [
     bgColor: "#E5DAFF",
     textColor: "#8F7EB3",
     price: 750.0,
-    image: new URL("@/assets/par03-grey-frame_eyk_1.webp", import.meta.url),
+    image: new URL("@/assets/customizable_desk.png", import.meta.url),
   },
   {
     name: "Stool",
     color: "Dark Blue",
     price: 500.0,
-    image: new URL("@/assets/f12a.webp", import.meta.url),
+    image: new URL("@/assets/placeholder.png", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "#9CD7D3",
@@ -75,7 +74,7 @@ const cards = [
     name: "Stool",
     color: "Green",
     price: 500.0,
-    image: new URL("@/assets/f12a.webp", import.meta.url),
+    image: new URL("@/assets/placeholder.png", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "#E5DAFF",
@@ -85,7 +84,7 @@ const cards = [
     name: "Stool",
     color: "Grey",
     price: 500.0,
-    image: new URL("@/assets/f12a.webp", import.meta.url),
+    image: new URL("@/assets/placeholder.png", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "#E5DAFF",
@@ -94,7 +93,7 @@ const cards = [
   {
     name: "Corner Desk Right Sit",
     price: 147.0,
-    image: new URL("@/assets/d3232.webp", import.meta.url),
+    image: new URL("@/assets/corner_desk.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -103,7 +102,7 @@ const cards = [
   {
     name: "Large Cabinet",
     price: 320.0,
-    image: new URL("@/assets/natural.jpg", import.meta.url),
+    image: new URL("@/assets/large_cabinet.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -112,7 +111,7 @@ const cards = [
   {
     name: "Storage Box",
     price: 15.8,
-    image: new URL("@/assets/download.jpeg", import.meta.url),
+    image: new URL("@/assets/storage_box.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -121,7 +120,7 @@ const cards = [
   {
     name: "Large Desk",
     price: 1799.0,
-    image: new URL("@/assets/51nYrPD-4ZL.jpg", import.meta.url),
+    image: new URL("@/assets/desk.png", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -130,7 +129,7 @@ const cards = [
   {
     name: "Pedal Bin",
     price: 47.0,
-    image: new URL("@/assets/images.jpeg", import.meta.url),
+    image: new URL("@/assets/pedal_bin.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -139,7 +138,7 @@ const cards = [
   {
     name: "Cabinet with Doors",
     price: 140.0,
-    image: new URL("@/assets/images (1).jpeg", import.meta.url),
+    image: new URL("@/assets/cabinet_with_doors.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -149,7 +148,7 @@ const cards = [
     name: "Conference Chair",
     legs: "Steel",
     price: 33.0,
-    image: new URL("@/assets/Conference.png", import.meta.url),
+    image: new URL("@/assets/conference_chair.jpg", import.meta.url),
     colorLegs: "#BDD3F1",
     colorTextLegs: "#3D5777",
     bgColor: "",
@@ -159,7 +158,7 @@ const cards = [
     name: "Conference Chair",
     legs: "Aluminium",
     price: 39.4,
-    image: new URL("@/assets/Conference.png", import.meta.url),
+    image: new URL("@/assets/conference_chair.jpg", import.meta.url),
     colorLegs: "#99A9F6",
     colorTextLegs: "#202D6B",
     bgColor: "",
@@ -168,7 +167,7 @@ const cards = [
   {
     name: "Customized Cabinet (Metric)",
     price: 210.0,
-    image: new URL("@/assets/images (1).jpeg", import.meta.url),
+    image: new URL("@/assets/cabinet_with_doors.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -177,7 +176,7 @@ const cards = [
   {
     name: "Customized Cabinet (USA)",
     price: 200.0,
-    image: new URL("@/assets/images (1).jpeg", import.meta.url),
+    image: new URL("@/assets/cabinet_with_doors.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -186,7 +185,7 @@ const cards = [
   {
     name: "Expenses",
     price: 1.0,
-    image: new URL("@/assets/images.png", import.meta.url),
+    image: new URL("@/assets/Expenses.svg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -195,7 +194,7 @@ const cards = [
   {
     name: "Desk Organizer",
     price: 5.1,
-    image: new URL("@/assets/0775013_PE756791_S5.jpg", import.meta.url),
+    image: new URL("@/assets/desk_organizer.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -204,7 +203,7 @@ const cards = [
   {
     name: "Desk Pad",
     price: 1.98,
-    image: new URL("@/assets/salgar-web.jpg", import.meta.url),
+    image: new URL("@/assets/desk_pad.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -214,7 +213,7 @@ const cards = [
     name: "LED Lamp",
     price: 0.9,
 
-    image: new URL("@/assets/265285.webp", import.meta.url),
+    image: new URL("@/assets/led_lamp.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -224,7 +223,7 @@ const cards = [
     name: "Letter Tray",
     price: 4.8,
 
-    image: new URL("@/assets/pigeon-holes-unit2.webp", import.meta.url),
+    image: new URL("@/assets/letter_tray.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -233,7 +232,7 @@ const cards = [
   {
     name: "Magnetic Board",
     price: 1.98,
-    image: new URL("@/assets/images (2).jpeg", import.meta.url),
+    image: new URL("@/assets/magnetic_board.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -242,10 +241,7 @@ const cards = [
   {
     name: "Monitor Stand",
     price: 3.19,
-    image: new URL(
-      "@/assets/sigfinn-monitor-stand-bamboo-veneer-ref-20362929.jpg",
-      import.meta.url
-    ),
+    image: new URL("@/assets/monitor_stand.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -254,7 +250,7 @@ const cards = [
   {
     name: "Newspaper Rack",
     price: 1.28,
-    image: new URL("@/assets/31awX9IizHL.jpg", import.meta.url),
+    image: new URL("@/assets/newspaper_rack.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -263,10 +259,7 @@ const cards = [
   {
     name: "Small Shelf",
     price: 2.83,
-    image: new URL(
-      "@/assets/39595c5d4e0649bbbe10e3c762eb7424.jpg",
-      import.meta.url
-    ),
+    image: new URL("@/assets/small_shelf.jpg", import.meta.url),
     colorLegs: "",
     colorTextLegs: "",
     bgColor: "",
@@ -276,9 +269,9 @@ const cards = [
 </script>
 
 <template>
-  <div class="p-4 bg-slate-50 pt-28 lg:pt-16">
+  <div class="py-[5px] px-4 bg-slate-50 font-sans">
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2"
+      class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-2"
     >
       <div v-for="(itemData, index) in cards" :key="index">
         <CardItem :itemData="itemData" />
